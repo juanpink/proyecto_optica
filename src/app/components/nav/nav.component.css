@@ -28,3 +28,9 @@
     background-color: #004a8e; /* Azul aún más oscuro para el estado activo */
     color: #b0d8f7;
 }
+
+
+.enlace-activo {
+    background-color: lightblue !important;
+    color: rgb(61, 88, 139) !important;
+}
