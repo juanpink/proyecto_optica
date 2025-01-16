@@ -1,8 +1,11 @@
 <div class="contenedor_clientes">
     <article *ngFor="let cliente of clienteService.getClientes()">
         {{cliente.nombre}}
+        -
         {{cliente.direccion}}
+        -
         {{cliente.email}}
+        -
         {{cliente.edad}}
     </article>
 </div>
