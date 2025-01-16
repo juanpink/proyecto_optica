@@ -1,0 +1,35 @@
+/* Estilos para el pie de página */
+.footer {
+    background-color: #003c73; /* Azul oscuro */
+    color: #ffffff; /* Texto blanco para contraste */
+    padding: 20px 40px;
+    text-align: center;
+    font-size: 16px;
+    border-top: 4px solid #005b8b; /* Azul intermedio para la línea superior */
+}
+
+/* Estilo para cada una de las secciones dentro del pie de página */
+.footer_telefono,
+.footer_email,
+.footer_direccion {
+    margin-bottom: 10px;
+}
+
+/* Estilo para los enlaces de correo electrónico (si fuese necesario) */
+.footer_email a {
+    color: #a8d8f0; /* Azul claro para el enlace */
+    text-decoration: none;
+}
+
+.footer_email a:hover {
+    text-decoration: underline;
+    color: #7cc1e0; /* Azul más claro para hover */
+}
+
+/* Efecto al pasar el ratón sobre los textos */
+.footer_telefono:hover,
+.footer_email:hover,
+.footer_direccion:hover {
+    color: #a8d8f0; /* Azul claro al pasar el ratón */
+    cursor: pointer;
+}

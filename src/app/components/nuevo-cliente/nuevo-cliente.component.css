@@ -1,0 +1,60 @@
+/* Estilos para el artículo */
+article {
+    background-color: #ffffff; /* Fondo blanco para resaltar los campos */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+
+    margin-top: 2rem;
+}
+
+/* Estilo para los inputs */
+input[type="text"], 
+input[type="email"], 
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #b0c4de; /* Azul suave para los bordes */
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f0f8ff; /* Fondo azul muy suave */
+    transition: border-color 0.3s ease;
+}
+
+/* Efecto al enfocar (focus) los inputs */
+input[type="text"]:focus, 
+input[type="email"]:focus, 
+input[type="number"]:focus {
+    border-color: #005682; /* Azul más intenso en el enfoque */
+    outline: none;
+    background-color: #e1eff9; /* Fondo azul más claro */
+}
+
+/* Estilo para el botón */
+button {
+    background-color: #0067b8; /* Azul primario */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Efecto al pasar el ratón sobre el botón */
+button:hover {
+    background-color: #005682; /* Azul más oscuro */
+}
+
+/* Estilo para el texto de los placeholders */
+input::placeholder {
+    color: #7ca8c3; /* Azul grisáceo para los placeholders */
+}

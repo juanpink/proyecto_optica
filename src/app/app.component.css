@@ -1,0 +1,14 @@
+/* Reset de márgenes y rellenos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f9fc; /* Fondo suave azul claro */
+    color: #333;
+    padding: 20px;
+}

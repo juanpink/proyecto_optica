@@ -1,0 +1,37 @@
+/* Estilos para el header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0e4e8a; /* Azul oscuro */
+    padding: 20px 40px;
+    border-bottom: 4px solid #005682; /* Azul más oscuro para detalle */
+}
+
+/* Estilo para el nombre de la óptica */
+.header_nombre {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff; /* Texto blanco */
+    letter-spacing: 2px;
+}
+
+/* Estilo para la imagen */
+.header_img img {
+    width: 150px;
+    height: auto;
+}
+
+/* Estilo para el reloj */
+.header_reloj {
+    font-size: 20px;
+    color: #b0c4de; /* Azul claro */
+    font-weight: 500;
+}
+
+/* Efecto al pasar el ratón sobre el nombre */
+.header_nombre:hover {
+    color: #a8d8f0; /* Azul claro */
+    cursor: pointer;
+    text-decoration: underline;
+}

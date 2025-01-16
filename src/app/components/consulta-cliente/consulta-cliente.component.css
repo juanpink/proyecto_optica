@@ -1,0 +1,55 @@
+/* Contenedor de los clientes */
+.contenedor_clientes {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco para el contenedor principal */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Estilo para cada artículo de cliente */
+.contenedor_clientes article {
+    background-color: #e1f5fe; /* Azul muy suave */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Efecto al pasar el ratón sobre cada artículo */
+.contenedor_clientes article:hover {
+    background-color: #b3e5fc; /* Azul más claro */
+    transform: translateY(-5px); /* Efecto sutil de movimiento */
+    cursor: pointer;
+}
+
+/* Estilo para los textos dentro de cada artículo */
+.contenedor_clientes article div {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Estilo para los nombres de los clientes */
+.contenedor_clientes article div:first-child {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0277bd; /* Azul oscuro para el nombre */
+}
+
+/* Estilo para los detalles de los clientes (dirección, email, edad) */
+.contenedor_clientes article div:not(:first-child) {
+    font-size: 16px;
+    color: #555; /* Gris oscuro para los detalles */
+}
+
+/* Estilo para los detalles específicos (dirección, email, edad) */
+.contenedor_clientes article div span {
+    font-weight: bold;
+    color: #0288d1; /* Azul más vibrante para las etiquetas */
+}
