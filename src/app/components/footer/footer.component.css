@@ -6,6 +6,10 @@
     text-align: center;
     font-size: 16px;
     border-top: 4px solid #005b8b; /* Azul intermedio para la línea superior */
+
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
 }
 
 /* Estilo para cada una de las secciones dentro del pie de página */

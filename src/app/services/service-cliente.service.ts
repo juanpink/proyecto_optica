@@ -6,7 +6,7 @@ import { Cliente } from '../interfaces/cliente';
 })
 export class ServiceClienteService {
 
-  clientes = new Array<Cliente>();
+  private clientes = new Array<Cliente>();
 
   constructor() { }
 

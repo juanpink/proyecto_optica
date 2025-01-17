@@ -1,0 +1,44 @@
+m/* Asegura que el contenedor 'main' ocupe toda la pantalla */
+main {
+    height: 100vh; /* 100% de la altura de la ventana */
+    width: 100vw;  /* 100% del ancho de la ventana */
+    margin: 0;     /* Eliminar márgenes predeterminados */
+    padding: 0;    /* Eliminar relleno */
+    display: flex; /* Usar Flexbox para centrar el contenido */
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Evitar desplazamiento si la imagen es más grande que la ventana */
+  }
+  
+main div {
+  text-align: center;
+  background-color: aliceblue;
+}
+
+/* Hacer que la imagen ocupe todo el contenedor sin deformarse */
+main div img {
+  
+  /*
+  width: 2240px;
+  height: 683px;
+  border: 2px solid green;
+  */
+  /*dimensiones de la imagen a crear*/
+
+  /*width: 100%;
+  height: 100%;*/
+  /*object-fit: cover; /* Hace que la imagen cubra el área sin deformarse */
+  /*object-position: center; /* Centra la imagen dentro del contenedor */
+
+  width: 35%;
+}
+
+@media (max-width: 599px) {
+  main div img {
+      width: 80%;
+      height: auto;
+  }
+}
+
+
+  
